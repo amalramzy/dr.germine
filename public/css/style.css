@@ -1,0 +1,69 @@
+/* Colors :
+Main #4ec0e7
+Second #f18aa2
+Create #62d683
+Edit #ffa83a
+Cancel / Delete #ff4062 */
+:root {
+    --Main: #4ec0e7;
+    --Second: #f18aa2;
+    --Create: #62d683;
+    --Edit: #ffa83a;
+    --Delete: #ff4062;
+    
+  }
+
+body{
+    text-align:initial !important;
+
+    
+}
+.btn-success{
+    background-color:var(--Create) !important;
+    /* color: #fff; */
+}
+a.edit{
+    color:var(--Edit) !important;
+}
+a.delete{
+    color:var(--Delete) !important;
+}
+a:hover{
+    color:var(--Second) !important;
+}
+.modal-title{
+    color:var(--Main) !important;
+
+}
+.navbar-custom {
+    background-color:var(--Main) !important;
+}
+table.dataTable thead th{
+    text-align:initial !important;
+}
+.form-check .form-check-input{
+    float: initial !important;
+     margin-left: initial !important;
+}
+
+#page-tage{
+    color:var(--Main) !important;
+}
+.active>.page-link{
+    background-color:var(--Main) !important;
+    border-color:var(--Main) !important;
+}
+.nav-pills .nav-link.active{
+    background-color:var(--Main) !important;
+
+}
+.form-check-input:checked{
+    background-color:var(--Main) !important;
+    border-color:var(--Main) !important;
+}
+.text-start{
+    text-align: initial !important;
+}
+body.authentication-bg {
+    background-color: var(--Main);
+}

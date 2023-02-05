@@ -1,0 +1,76 @@
+body{
+    font-family: 'Cairo', sans-serif !important;
+    font-family: 'Readex Pro', sans-serif !important;
+}
+
+
+.main{
+    background-color:#fff;
+}
+.header-e{
+    border-bottom:#4ec0e7 solid 2px;
+}
+.header-col1{
+    border-right:#4ec0e7 solid 2px;
+}
+
+.header-col1 h3,.header-col2 h3{
+    color: #4ec0e7;
+    font-size:20px;
+    font-family: 'Cairo', sans-serif !important;
+
+}
+
+.header-col1 p{
+    font-size:12px;
+    line-height: 6px;
+}
+.header-col1 .title4{
+    font-weight:bolder;
+    font-size:12px
+}
+
+.header-col2{
+    border-left:#4ec0e7 solid 2px;
+}
+
+.header-col2 p{
+    font-size:12px;
+    line-height: 6px;
+    font-family: 'Cairo', sans-serif !important;
+}
+.header-line{
+    border-bottom:#d3d6d6 solid 2px;
+}
+.head{
+    font-size: 15px;
+}
+.head2{
+    font-size: 15px;
+    text-align:left;
+    padding-left:100px;
+}
+
+.medical{
+    border-bottom: #d3d6d6 solid 2px;
+    /* margin-bottom: 50px; */
+    text-align: left;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.footer{
+    border-top:#4ec0e7 solid 2px;
+}
+
+.footer-sheet{
+    color: #4ec0e7;
+    font-size:17px;
+    font-weight: bolder;
+    font-family: 'Cairo', sans-serif !important;
+
+}
+
+.title-center{
+    height: 170px;
+}
